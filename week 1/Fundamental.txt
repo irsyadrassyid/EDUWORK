@@ -1,0 +1,15 @@
+Deskripsi
+-Perintah perintah dasar yang sering dilakukan untuk mengoperasikan GIT
+Manfaat
+-Terbiasa mengerjakan proyek dengan terdokumentasi
+-Fleksibel dalam mengeksplorasi fitur
+-Mempercepat dalam mengerjakan proyek terlebih jika proyek kolaborasi
+Todo
+->Git init
+->Git config
+->Git status
+->Git add
+->Git commit
+->Git clone
+Kapan dibutuhkan
+-Saat mengerjakan proyek
