@@ -1,17 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
-*{
-    font-family:'Arvo';
+
+* {
+    font-family: 'Arvo';
     margin: 0%;
 }
-body{
-    background-image: repeating-linear-gradient( 
-        339deg, #0000004f, #ffffff 1000px);
+
+body {
+    background-image: repeating-linear-gradient(339deg, #0000004f, #ffffff 1000px);
 }
 
-h1#rijal{
+h1#rijal {
     color: seashell;
 }
-.hero{
+
+.hero {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -19,51 +21,62 @@ h1#rijal{
     text-align: center;
     width: 100%;
     height: 383px;
-    background-image: url(bg3.jpg);
-    background-repeat: no-repeat,repeat;
+    background-image: url(img/bg3.jpg);
+    background-repeat: no-repeat, repeat;
     background-position: right bottom, left top;
     background-size: 1440px 383px;
     box-shadow: 0px 0px 5px 1px;
 }
+
 img#img-cyrcle {
     margin-bottom: 10px;
     width: 200px;
     border-radius: 50%;
     box-shadow: -1px 1px 3px 0px;
-    border: 0.1px solid  rgba(255, 255, 255, 0.25);
+    border: 0.1px solid rgba(255, 255, 255, 0.25);
 }
-.name{
-    background:rgba(255, 255, 255, 0.25);
+
+.name {
+    background: rgba(255, 255, 255, 0.25);
     width: 300px;
     height: auto;
     padding: 10px;
     border-radius: 2%;
     box-shadow: -1px 1px 3px 0px;
 }
-div.sosmed{
+
+div.sosmed {
     display: inline-flex;
-    position: absolute;
-    left: 0;
-    top:62% ;
+    position: relative;
+    left: -30%;
+    top: 6%;
 }
-div.sub{
+
+div.sub {
     display: inline-flex;
 }
-p#sosmed,img#sosmed{
+
+p#sosmed,
+img#sosmed {
     margin-right: 10px;
 }
-p#sosmed{
+
+p#sosmed {
     color: white;
 }
-img#sosmed{
+
+img#sosmed {
     width: 25px;
 }
-h1#header  {
+
+h1#header {
     color: white;
 }
-h3#header  {
+
+h3#header {
     color: white;
 }
+
 .card {
     box-shadow: -2px 4px 13px 0px #8c8c8c;
     width: auto;
@@ -72,19 +85,23 @@ h3#header  {
     padding: 25px;
     border-radius: 2%;
 }
-ul{
+
+ul {
     list-style: none;
 }
-.container{
+
+.container {
     background: rgb(236 234 239);
     width: 90%;
     margin-inline: auto;
 }
-.biodata-flex{
+
+.biodata-flex {
     display: flex;
     justify-content: center;
 }
-.biodata{
+
+.biodata {
     width: 75%;
     text-align: center;
     display: flex;
@@ -92,13 +109,15 @@ ul{
     align-items: center;
     flex-direction: column;
 }
-.biodata > #biodata {
+
+.biodata>#biodata {
     margin-top: 10px;
 }
-hr{
-    height:5px;
-    border-width:0;
-    color:gray;
-    background-color:gray;
+
+hr {
+    height: 5px;
+    border-width: 0;
+    color: gray;
+    background-color: gray;
     width: 7em;
 }
