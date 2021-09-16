@@ -1,12 +1,32 @@
-.container-fluid{
+.container-fluid {
     padding: 0;
 }
-.jumbotron{
+
+.jumbotron {
     background: url(bg4.jpg);
     background-size: 100%;
     width: 1440px;
     height: 360px;
+    background-repeat: no-repeat;
 }
-.img-profil{
+
+.img-profil {
     width: 10rem;
+}
+
+.name {
+    background: rgba(255, 255, 255, 0.25);
+    width: 350px;
+    height: auto;
+    padding: 10px;
+    border-radius: 2%;
+    box-shadow: -1px 1px 3px 0px;
+}
+
+h1#header {
+    color: white;
+}
+
+h3#header {
+    color: white;
 }
