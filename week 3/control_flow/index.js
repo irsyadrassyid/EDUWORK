@@ -15,6 +15,8 @@ if (nilai >= 101) {
     alert('Harus lebih dari 0');
 } else if (nilai = String) {
     alert('harus memasukan angka');
-} else {
+} else if (nilai == null || nilai == "") {
     alert('harus memasukan nilai')
+} else {
+    alert('makasih')
 }
