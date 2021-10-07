@@ -30,3 +30,15 @@ h1#header {
 h3#header {
     color: white;
 }
+
+img#sosmed {
+    width: 25px;
+}
+
+.sosmed {
+    width: 100%;
+}
+
+h6#sosmed {
+    color: aliceblue;
+}
