@@ -6,18 +6,18 @@ import Table from 'react-bootstrap/Table'
 function CompTable() {
   const collums = ['#', 'Name', 'Email'].map((d) => { return (<th>{d}</th>) });
   const data =
-    [['1', 'Irsad', 'irsad@gmil.com'],
-    ['2', 'agung', 'agung@gmil.com'],
-    ['3', 'Angga', 'Angga@gmil.com'],
-    ['4', 'fadil', 'fadil@gmil.com']
+    [
+      ['1', 'Irsad', 'irsad@gmil.com'],
+      ['2', 'alvian', 'alvian@gmil.com'],
+      ['3', 'Rangga', 'Rangga@gmil.com'],
+      ['4', 'fadil', 'fadil@gmil.com']
     ];
   const colls = [];
   for (let row of data) {
     colls.push(row.map((d) => { return (<td>{d}</td>) }));
   }
   const rows = colls.map((d) => { return (<tr>{d}</tr>) })
-
-
+  console.log(data[0][0])
   return (
     <dir>
       <Table striped bordered hover variant="dark">
